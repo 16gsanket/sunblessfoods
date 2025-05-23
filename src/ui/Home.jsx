@@ -4,11 +4,13 @@ import Button from "./Button";
 import CardType2 from "./Cards/CardType2";
 import ButtonType1 from "./Button/ButtonType1";
 import SubmitButton from "./Button/SubmitButton";
+import ImageCarousel from "./ImageCarousal";
 
 function Home() {
 
   return (
     <div className="bg-red-300 h-[91dvh] w-[100dvw]">
+      <ImageCarousel />
         <CookieCard />
         <CardType2 />
         <ButtonType1 />
